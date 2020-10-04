@@ -75,8 +75,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 535)
     server.ehlo()
     server.starttls()
-    server.login('poonam031999@gmail.com', 'Poonam@123')
-    server.sendmail('poonam031999@gmail.com', to, content)
+    server.login('xyz@gmail.com', 'Pass**rd')
+    server.sendmail('xyz@gmail.com', to, content)
     server.close()
 
 def scrnshot():
